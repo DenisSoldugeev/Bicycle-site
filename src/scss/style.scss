@@ -81,8 +81,6 @@
   }
 }
 
-.content {}
-
 // </Основной блок>
 
 @import '_header.scss';
@@ -90,8 +88,6 @@
 .generation {
   padding: 120px 0;
   background-color: #f7f7f7;
-
-  &__block {}
 }
 
 .block {
@@ -169,8 +165,6 @@
     }
   }
 
-  &__last {}
-
   &__row {
     display: flex;
   }
@@ -182,8 +176,6 @@
       flex: 0 1 66.667%;
     }
   }
-
-  &__item {}
 
   &__content {
     padding: 70px 65px 55px 55px;
@@ -227,8 +219,6 @@
       &:nth-child(2) {
         order: 1;
       }
-
-      &:nth-child(3) {}
     }
   }
 }
@@ -371,8 +361,6 @@
       flex: 0 1 33.3333%;
     }
   }
-
-  &__block {}
 
   &__footer {
     padding: 75px 0;
